@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+
+using namespase std;
+
+int main(){
+    double D = 76.546;
+    double dD = 0.012;
+    double angle1 = 1 + 17.0 / 60 + 26.0 / 3600;
+    double angle = 0 + 54.0 / 60 + 29.0 / 3600;
+    double dAngle = 3.0 / 3600;
+    double height = D * (tan(angle1 * M_PI / 180) + tan(angle2 * M_PI / 180));
+    double dHeight = height * sqrt(pow(dD / D, 2) + pow(dAngle * tan(angle1 * M_PI / 180), 2) + pow(dAngle * tan(angle2 * |M_PI / 180), 2));
+    cout <<" Высота сооружения: " << height << "м" << endl;
+    cout <<" Погрешность измерения:"<< dHeight <<"м"<< endl;
+    return 0;
+}
