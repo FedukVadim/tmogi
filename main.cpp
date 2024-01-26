@@ -4,14 +4,9 @@
 using namespase std;
 
 int main(){
-    double D = 76.546;
-    double dD = 0.012;
-    double angle1 = 1 + 17.0 / 60 + 26.0 / 3600;
-    double angle = 0 + 54.0 / 60 + 29.0 / 3600;
-    double dAngle = 3.0 / 3600;
-    double height = D * (tan(angle1 * M_PI / 180) + tan(angle2 * M_PI / 180));
-    double dHeight = height * sqrt(pow(dD / D, 2) + pow(dAngle * tan(angle1 * M_PI / 180), 2) + pow(dAngle * tan(angle2 * |M_PI / 180), 2));
-    cout <<" Высота сооружения: " << height << "м" << endl;
-    cout <<" Погрешность измерения:"<< dHeight <<"м"<< endl;
+    int n = 5;
+    double mh = 1.0 / 3000;
+    double denominator = n * sqrt(2) * mh;
+    cout << "Знаменатель относительной погрешности периметра полигона: " << denominator << end;
     return 0;
 }
