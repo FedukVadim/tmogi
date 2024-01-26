@@ -19,7 +19,14 @@ $$   D = D_{1} + D_{2}+D_{3}+D_{4}+D_{5}   $$
 
 $$   F = f(a,b)   $$ 
 
-$$   m^{2}_{\sigma } = \left ( \frac{df}{dD_{1}} \right ) * m_{\sigma }^{2} +  \left ( \frac{df}{dD_{2}} \right ) * m_{\sigma }^{2} + \left ( \frac{df}{dD_{3}} \right ) + m_{\sigma }^{2} + \left ( \frac{df}{dD_{4}} \right ) * m_{\sigma }^{2} + \left ( \frac{df}{dD_{5}} \right ) * m_{\sigma }^{2}   $$ 
+$$
+m^{2}_{\sigma } = 
+$$
+
+$$
+= \left ( \frac{df}{dD_{1}} \right ) * m_{\sigma }^{2} +  \left ( \frac{df}{dD_{2}} \right ) * m_{\sigma }^{2} + \left ( \frac{df}{dD_{3}} \right ) + m_{\sigma }^{2} + \left ( \frac{df}{dD_{4}} \right ) * m_{\sigma }^{2} + \left ( \frac{df}{dD_{5}} \right ) * m_{\sigma }^{2}
+$$
+
 
 $$   m_{\sigma }^{2} = 5 * m_{\sigma }^{2}    $$   
 
